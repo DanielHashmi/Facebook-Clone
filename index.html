@@ -1,0 +1,929 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/output.css">
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <title>Facebook</title>
+</head>
+
+<body class="box-border bg-[#f0f2f5] overflow-x-hidden">
+    <div class="wrapper h-full w-full ">
+        <!-- navbar -->
+        <div class="sticky top-0 z-10">
+            <div class="navbar w-full flex justify-between items-center bg-white p-1  gap-1 shadow-md">
+
+                <!-- first div -->
+                <div class="flex items-center gap-2 ">
+                    <img class=" w-11 rounded-full cursor-pointer ml-4" src="images/logo.png" alt="fbLogo">
+
+                    <div class="flex bg-[#f0f2f5] w-fit lg:w-60 rounded-full p-2  ">
+                        <img class=" cursor-pointer min-w-5 max-w-5" src="images/search.svg" alt="searchIcon">
+                        <input class="bg-[#f0f2f5] w-60 outline-none hidden lg:block" type="text"
+                            placeholder="Search Facebook">
+                    </div>
+                    <img class=" cursor-pointer  w-8 block sm:hidden " src="images/hamburger.svg" alt="hamburgerIcon">
+                </div>
+
+                <!-- second div -->
+                <div class="sm:w-[45%] lg:w-[36%]">
+                    <div class="navBtns sm:flex hidden justify-around  xl:mr-16 items-center">
+                        <img class=" cursor-pointer  w-8" src="images/home.png" alt="homeIcon">
+                        <img class=" cursor-pointer  w-8" src="images/people.png" alt="peopleIcon">
+                        <img class=" cursor-pointer  w-8" src="images/tv.png" alt="tvIcon">
+                        <img class=" cursor-pointer  w-8" src="images/archive.png" alt="archiveIcon">
+                        <img class=" cursor-pointer  w-8 hidden lg:block" src="images/switch.png" alt="gameIcon">
+                        <img class=" cursor-pointer  w-8 block lg:hidden" src="images/hamburger.svg"
+                            alt="hamburgerIcon">
+                    </div>
+
+                </div>
+
+                <!-- third div -->
+                <div class="navBtns2 flex gap-1 items-center px-3 mr-4 xsm:mr-2">
+                    <img class=" cursor-pointer hidden md:block  w-10 rounded-full p-2 bg-[#e7e7e7]"
+                        src="images/apps.svg" alt="appsIcon">
+                    <img class=" cursor-pointer w-10 block md:hidden rounded-full" src="images/grayPlus.png"
+                        alt="plus-icon">
+                    <img class="  cursor-pointer w-12  " src="images/chat.png" alt="chatIcon">
+                    <img class="  cursor-pointer w-12 " src="images/bell.png" alt="bellIcon">
+                    <img class="  w-10 rounded-full cursor-pointer" src="images/Daniel Hashmi.jpg" alt="profile-icon">
+                </div>
+            </div>
+        </div>
+        <!-- main -->
+        <div class="main flex justify-around lg:justify-between">
+            <!-- .mainFirst -->
+            <div class=" w-[24%] hidden lg:block">
+
+                <div class="mainFirst p-5 md:flex hidden flex-col gap-5 font-semibold w-full sticky top-[4rem]">
+                    <div class="tagBtn flex gap-2 hover:bg-[#d9d9d9] cursor-pointer items-center">
+                        <img class=" cursor-pointer w-9 rounded-full" src="images/Daniel Hashmi.jpg" alt="profile-icon">
+                        <h3>Daniel Hashmi</h3>
+                    </div>
+                    <div class="tagBtn flex gap-3 hover:bg-[#d9d9d9] cursor-pointer items-center">
+                        <img class=" cursor-pointer w-8" src="images/friends.png" alt="friends-icon">
+                        <h3>Find friends</h3>
+                    </div>
+                    <div class="tagBtn flex gap-3 hover:bg-[#d9d9d9] cursor-pointer items-center">
+                        <img class=" cursor-pointer w-8" src="images/clock.png" alt="clock-icon">
+                        <h3>Memories</h3>
+                    </div>
+                    <div class="tagBtn flex gap-4 hover:bg-[#d9d9d9] cursor-pointer p-1 items-center">
+                        <img class=" cursor-pointer w-6" src="images/pingTag.png" alt="pingTag-icon">
+                        <h3>Saved</h3>
+                    </div>
+                    <div class="tagBtn flex gap-3 hover:bg-[#d9d9d9] cursor-pointer items-center">
+                        <img class=" cursor-pointer w-8" src="images/group.png" alt="group-icon">
+                        <h3>Groups</h3>
+                    </div>
+                    <div class="tagBtn flex gap-3 hover:bg-[#d9d9d9] cursor-pointer items-center">
+                        <img class=" cursor-pointer w-8" src="images/colorTv.png" alt="colorTv-icon">
+                        <h3>Video</h3>
+                    </div>
+                    <div class="tagBtn flex gap-3 hover:bg-[#d9d9d9] cursor-pointer items-center">
+                        <img class=" cursor-pointer w-8" src="images/market.png" alt="market-icon">
+                        <h3>Marketplace</h3>
+                    </div>
+                    <div class="tagBtn flex gap-3 hover:bg-[#d9d9d9] cursor-pointer items-center">
+                        <img class=" cursor-pointer w-8" src="images/feed.png" alt="feed-icon">
+                        <h3>Feeds</h3>
+                    </div>
+                    <div class="tagBtn flex gap-3 hover:bg-[#d9d9d9] cursor-pointer items-center">
+                        <img class=" cursor-pointer w-8" src="images/event.png" alt="event-icon">
+                        <h3>Events</h3>
+                    </div>
+                    <div class="tagBtn flex gap-3 hover:bg-[#d9d9d9] cursor-pointer items-center">
+                        <img class=" cursor-pointer w-8" src="images/ads.png" alt="ads-icon">
+                        <h3>Ads Manager</h3>
+                    </div>
+                    <div class="tagBtn flex gap-3 hover:bg-[#d9d9d9] cursor-pointer items-center">
+                        <img class=" cursor-pointer w-8" src="images/Colorheart.png" alt="Colorheart-icon">
+                        <h3>Fundraisers</h3>
+                    </div>
+                    <div class="tagBtn flex gap-3 hover:bg-[#d9d9d9] cursor-pointer items-center">
+                        <img class=" cursor-pointer w-8" src="images/arrdown.png" alt="arrdown-icon">
+                        <h3>See more</h3>
+                    </div>
+                    <footer class="text-[#7b7d81] mt-44 flex gap-1 flex-wrap text-xs w-80 sticky bottom-0">
+                        <a href="#">Privacy</a> •<a href="#">Terms</a> •<a href="#">Advertising</a> • <a
+                            class="items-center flex gap-[2px]" href="#">Ad choices
+                            <img class=" cursor-pointer w-4" src="images/play.png" alt="play-icon"></a>
+                        • <a href="#">Cookies</a> • <a href="#">More</a> •<a class="flex  gap-[2px] items-center"
+                            href="#">Meta
+                            <img class=" cursor-pointer w-4" src="images/copyright.png" alt="copyright-icon"> 2024</a>
+                    </footer>
+                </div>
+            </div>
+            <!-- .mainSecond -->
+
+            <div class="mainSecond w-full px-2 md:p-0 md:w-3/5 lg:w-6/12 2xl:w-[36%]">
+
+                <div class="flex p-3 items-center bg-white shadow-md mt-4 rounded-lg gap-2">
+                    <img class=" cursor-pointer w-10 rounded-full" src="images/bluePlus.png" alt="plus-icon">
+                    <div>
+                        <h2 class=" font-bold">Create Story</h2>
+                        <p class="">Share a photo or write something.</p>
+                    </div>
+                </div>
+                <!-- user controls -->
+                <div class="flex flex-col px-6 p-1 items-center bg-white shadow-md mt-4 rounded-lg gap-2">
+                    <div class="flex gap-4 w-full border-b-[2px] border-[#e6e7e9] py-3 items-center">
+                        <img class=" cursor-pointer w-10 rounded-full" src="images/Daniel Hashmi.jpg"
+                            alt="profile-icon">
+                        <input class="outline-none w-full rounded-full  p-2 bg-[#f0f2f5]" type="text"
+                            placeholder="What's on your mind, Daniel?">
+                    </div>
+                    <div class="flex justify-around w-full py-3">
+                        <div class="flex items-center gap-2 text-sm font-semibold">
+                            <img class=" cursor-pointer w-6" src="images/rec.png" alt="rec-icon">
+                            <h1 class="hidden xsm:block ">Live video</h1>
+                        </div>
+                        <div class="flex items-center gap-2 text-sm font-semibold">
+                            <img class=" cursor-pointer w-6" src="images/gell.png" alt="gell-icon">
+                            <h1 class="hidden xsm:block ">Photo/video</h1>
+                        </div>
+                        <div class="flex items-center gap-2 text-sm font-semibold">
+                            <img class=" cursor-pointer w-6" src="images/emoji.png" alt="emoji-icon">
+                            <h1 class="hidden xsm:block ">Feeling/activity</h1>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- posts -->
+                <div class="postsContainer">
+                    <!-- New Post -->
+                    <div class="post flex flex-col items-start bg-white shadow-md mt-3 rounded-lg gap-2">
+                        <!-- post Nav -->
+                        <div class="postNav w-full p-4 flex flex-col gap-4">
+                            <div class="flex justify-between ">
+                                <div class="flex items-center gap-3">
+                                    <img class=" cursor-pointer w-10 rounded-full" src="images/Daniel Hashmi.jpg"
+                                        alt="profile-icon">
+                                    <div>
+                                        <h1 class="font-semibold text-sm">Daniel Hashmi</h1>
+                                        <p class="flex items-center text-xs text-gray-500"><span>Suggested for
+                                                you</span> • <span>26 February at
+                                                06:57</span> <img class=" cursor-pointer w-5" src="images/globe.png"
+                                                alt="globe-icon">
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="flex items-center gap-2">
+                                    <img class=" cursor-pointer w-6" src="images/ellypsis.svg" alt="threedots-icon">
+                                    <img class=" cursor-pointer w-6" src="images/close.png" alt="close-icon">
+                                </div>
+                            </div>
+                            <p><b>Daniel Hashmi Portfolio</b>
+                                <br>
+                                <br>
+                                Hello! I'm Daniel, a web developer and programmer. This is my
+                                portfolio website <a class="text-blue-700"
+                                    href="https://danielhashmiportfolios.freewebhostmost.com/">https://danielhashmiportfolios.freewebhostmost.com/</a>.
+                                <br>
+                                <b>About Portfolio</b>
+                                This portfolio isn't just a collection of projects, it's a glimpse into my coding
+                                journey and overall everything. From the initial flex box layout to this smoother
+                                creations you see today, it's a story of frustration, consistency, and ultimately,
+                                passion.
+
+                                <b>Technologies</b>
+                                FrontEnd: HTML, CSS.
+                                BackEnd: JAVASCRIPT.
+                                DataBase: Coming Soon...
+                                <br>
+                                <b>Contact Me</b>
+                                Feel free to reach out to me!
+                                <br>
+                                <b>Email</b>: danielhashmiportfolios@gmail.com
+                                <br>
+                                <b>LinkedIn</b>: <a class="text-blue-700"
+                                    href="https://www.linkedin.com/in/daniel-hashmi-a988042b4/">https://www.linkedin.com/in/daniel-hashmi-a988042b4/</a>
+                                <br>
+                                <b>GitHub</b>: <a class="text-blue-700"
+                                    href="https://github.com/DanielHashmi">https://github.com/DanielHashmi</a>
+                            </p>
+                        </div>
+                        <!-- post image -->
+                        <a href="https://danielhashmiportfolios.freewebhostmost.com/"
+                            class="bg-black w-full flex items-center justify-center">
+                            <img class=" cursor-pointer w-9/12" src="images/portfolio.jpg" alt="image">
+                        </a>
+                        <!-- post controls -->
+                        <div class="w-full">
+
+                            <div class="flex justify-between items-center text-sm w-full p-2">
+                                <div class="flex items-center">
+                                    <img class=" cursor-pointer w-18 h-6" src="images/reactions.png"
+                                        alt="reactions-icons">
+                                    <h1> 17K</h1>
+                                </div>
+                                <div class="flex  gap-2">
+                                    <h1>500K+ comments</h1>
+                                    <h1>17K+ shares </h1>
+                                </div>
+                            </div>
+
+                            <div
+                                class="flex items-center justify-around border-t-[2px] p-2 text-sm font-semibold border-[#e6e7e9]">
+                                <div class="flex items-center">
+                                    <img class=" cursor-pointer w-8" src="images/like.png" alt="like-icon">
+                                    <h1>Like</h1>
+                                </div>
+                                <div class="flex items-center">
+                                    <img class=" cursor-pointer w-8" src="images/comment.png" alt="comment-icon">
+                                    <h1>Comment</h1>
+                                </div>
+                                <div class="flex items-center">
+                                    <img class=" cursor-pointer w-8" src="images/share.png" alt="share-icon">
+                                    <h1>Share</h1>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- New Post -->
+                    <div class="post flex flex-col items-start bg-white shadow-md mt-3 rounded-lg gap-2">
+                        <!-- post Nav -->
+                        <div class="postNav w-full p-4 flex flex-col gap-4">
+                            <div class="flex justify-between ">
+                                <div class="flex items-center gap-3">
+                                    <img class=" cursor-pointer w-10 rounded-full" src="images/Daniel Hashmi.jpg"
+                                        alt="profile-icon">
+                                    <div>
+                                        <h1 class="font-semibold text-sm">Daniel Hashmi</h1>
+                                        <p class="flex items-center text-xs text-gray-500"><span>Suggested for
+                                                you</span> • <span>26 February at
+                                                06:57</span> <img class=" cursor-pointer w-5" src="images/globe.png"
+                                                alt="globe-icon">
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="flex items-center gap-2">
+                                    <img class=" cursor-pointer w-6" src="images/ellypsis.svg" alt="threedots-icon">
+                                    <img class=" cursor-pointer w-6" src="images/close.png" alt="close-icon">
+                                </div>
+                            </div>
+                            <p><b>Twitter</b>
+                                This is a simple Twitter clone project with a focus on UI, built some functions using
+                                <b>JavaScript</b> and styled with <b>Tailwind</b> CSS.
+                                <br>
+                                <br>
+                                <b>Features</b> 🚀
+                                <br>
+                                <b>UI Design</b>: Clean and intuitive user interface inspired by Twitter's design. <br>
+                                <b>Responsive</b>: Fully responsive design ensuring compatibility across various <br>
+                                devices. <br>
+                                <b>Small Devices</b> On small devices the sidebar hides and when you swipe left & right
+                                the
+                                sidebar toggles
+                                <br><br>
+                                <b>Technologies Used</b> 💻
+                                JavaScript: Used for interactivity and dynamic content.
+                                Tailwind CSS: A utility-first CSS framework used for styling.
+                                <b>Demo</b> 🎥
+                                You can find a live demo of the application by clicking here <b><a class="text-blue-700"
+                                        href="https://twitter-clone.freewebhostmost.com/">Twitter</a></b>.
+                            </p>
+                        </div>
+                        <!-- post image -->
+                        <a href="https://twitter-clone.freewebhostmost.com/"
+                            class="bg-black w-full flex items-center justify-center">
+                            <img class=" cursor-pointer w-9/12" src="images/twitterProject.jpeg" alt="image">
+                        </a>
+                        <!-- post controls -->
+                        <div class="w-full">
+
+                            <div class="flex justify-between items-center text-sm w-full p-2">
+                                <div class="flex items-center">
+                                    <img class=" cursor-pointer w-18 h-6" src="images/reactions.png"
+                                        alt="reactions-icons">
+                                    <h1> 17K</h1>
+                                </div>
+                                <div class="flex  gap-2">
+                                    <h1>500K+ comments</h1>
+                                    <h1>17K+ shares </h1>
+                                </div>
+                            </div>
+
+                            <div
+                                class="flex items-center justify-around border-t-[2px] p-2 text-sm font-semibold border-[#e6e7e9]">
+                                <div class="flex items-center">
+                                    <img class=" cursor-pointer w-8" src="images/like.png" alt="like-icon">
+                                    <h1>Like</h1>
+                                </div>
+                                <div class="flex items-center">
+                                    <img class=" cursor-pointer w-8" src="images/comment.png" alt="comment-icon">
+                                    <h1>Comment</h1>
+                                </div>
+                                <div class="flex items-center">
+                                    <img class=" cursor-pointer w-8" src="images/share.png" alt="share-icon">
+                                    <h1>Share</h1>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- New Post -->
+                    <div class="post flex flex-col items-start bg-white shadow-md mt-3 rounded-lg gap-2">
+                        <!-- post Nav -->
+                        <div class="postNav w-full p-4 flex flex-col gap-4">
+                            <div class="flex justify-between ">
+                                <div class="flex items-center gap-3">
+                                    <img class=" cursor-pointer w-10 rounded-full" src="images/Daniel Hashmi.jpg"
+                                        alt="profile-icon">
+                                    <div>
+                                        <h1 class="font-semibold text-sm">Daniel Hashmi</h1>
+                                        <p class="flex items-center text-xs text-gray-500"><span>Suggested for
+                                                you</span> • <span>26 February at
+                                                06:57</span> <img class=" cursor-pointer w-5" src="images/globe.png"
+                                                alt="globe-icon">
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="flex items-center gap-2">
+                                    <img class=" cursor-pointer w-6" src="images/ellypsis.svg" alt="threedots-icon">
+                                    <img class=" cursor-pointer w-6" src="images/close.png" alt="close-icon">
+                                </div>
+                            </div>
+                            <p><b>Spotify Clone</b>
+
+
+                                Welcome to my interactive Spotify UI clone! This project not only replicates the modern,
+                                user-friendly interface of Spotify but also includes some key functionalities, ensuring
+                                a visually pleasing and intuitive user experience.
+                                <br>
+                                <br>
+                                <b>Key Features:</b>
+                                <br>
+                                Responsive Design: My Spotify UI clone is designed to be fully responsive,
+                                providing an optimal viewing experience across a wide range of devices.
+                                <br>
+                                <br>
+                                Music Player: My clone includes basic music player functions such as play, pause,
+                                volume control, and a seek bar.
+                                <br>
+                                <br>
+                                Song Detection: You can add new songs to the platform, and it will automatically
+                                detect them.
+                                <br>
+                                <br>
+                                Please note that while this project includes some interactive features, it does not
+                                include backend functionality such as actual music streaming from Spotify's library or
+                                personalized recommendations. It's a great resource for learning and exploring UI design
+                                principles and basic music player functionalities!
+
+                                <br>
+                                <br>
+                                Usage
+                                <b> <a class="text-blue-500" href="https://spotifydone.freewebhostmost.com/">Click
+                                        here
+                                        to use the App</a></b>
+                            </p>
+                        </div>
+                        <!-- post image -->
+                        <a href="https://spotifydone.freewebhostmost.com/"
+                            class="bg-black w-full flex items-center justify-center">
+                            <img class=" cursor-pointer w-9/12" src="images/spotify.jpeg" alt="image">
+                        </a>
+                        <!-- post controls -->
+                        <div class="w-full">
+
+                            <div class="flex justify-between items-center text-sm w-full p-2">
+                                <div class="flex items-center">
+                                    <img class=" cursor-pointer w-18 h-6" src="images/reactions.png"
+                                        alt="reactions-icons">
+                                    <h1> 17K</h1>
+                                </div>
+                                <div class="flex  gap-2">
+                                    <h1>500K+ comments</h1>
+                                    <h1>17K+ shares </h1>
+                                </div>
+                            </div>
+
+                            <div
+                                class="flex items-center justify-around border-t-[2px] p-2 text-sm font-semibold border-[#e6e7e9]">
+                                <div class="flex items-center">
+                                    <img class=" cursor-pointer w-8" src="images/like.png" alt="like-icon">
+                                    <h1>Like</h1>
+                                </div>
+                                <div class="flex items-center">
+                                    <img class=" cursor-pointer w-8" src="images/comment.png" alt="comment-icon">
+                                    <h1>Comment</h1>
+                                </div>
+                                <div class="flex items-center">
+                                    <img class=" cursor-pointer w-8" src="images/share.png" alt="share-icon">
+                                    <h1>Share</h1>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- New Post -->
+                    <div class="post flex flex-col items-start bg-white shadow-md mt-3 rounded-lg gap-2">
+                        <!-- post Nav -->
+                        <div class="postNav w-full p-4 flex flex-col gap-4">
+                            <div class="flex justify-between ">
+                                <div class="flex items-center gap-3">
+                                    <img class=" cursor-pointer w-10 rounded-full" src="images/Daniel Hashmi.jpg"
+                                        alt="profile-icon">
+                                    <div>
+                                        <h1 class="font-semibold text-sm">Daniel Hashmi</h1>
+                                        <p class="flex items-center text-xs text-gray-500"><span>Suggested for
+                                                you</span> • <span>26 February at
+                                                06:57</span> <img class=" cursor-pointer w-5" src="images/globe.png"
+                                                alt="globe-icon">
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="flex items-center gap-2">
+                                    <img class=" cursor-pointer w-6" src="images/ellypsis.svg" alt="threedots-icon">
+                                    <img class=" cursor-pointer w-6" src="images/close.png" alt="close-icon">
+                                </div>
+                            </div>
+                            <p><b>NetFlix</b>
+                                This Netflix Clone is a fully responsive clone i tried to make this with the help of
+                                Flex Box and Grid, <b><a class="text-blue-500"
+                                        href="https://dhnetflix.freewebhostmost.com/"> Click to Open the
+                                        Project</a>
+                                </b>
+                                This project replicates the clean, user-friendly interface of Netflix, ensuring a
+                                visually pleasing and intuitive user experience.
+
+                                Responsive Design: My Netflix UI clone is designed to be fully responsive, providing an
+                                optimal viewing experience across a wide range of devices.</p>
+                        </div>
+                        <!-- post image -->
+                        <a href="https://dhnetflix.freewebhostmost.com/"
+                            class="bg-black w-full flex items-center justify-center">
+                            <img class=" cursor-pointer w-9/12" src="images/netflix.jpeg" alt="image">
+                        </a>
+                        <!-- post controls -->
+                        <div class="w-full">
+
+                            <div class="flex justify-between items-center text-sm w-full p-2">
+                                <div class="flex items-center">
+                                    <img class=" cursor-pointer w-18 h-6" src="images/reactions.png"
+                                        alt="reactions-icons">
+                                    <h1> 17K</h1>
+                                </div>
+                                <div class="flex  gap-2">
+                                    <h1>500K+ comments</h1>
+                                    <h1>17K+ shares </h1>
+                                </div>
+                            </div>
+
+                            <div
+                                class="flex items-center justify-around border-t-[2px] p-2 text-sm font-semibold border-[#e6e7e9]">
+                                <div class="flex items-center">
+                                    <img class=" cursor-pointer w-8" src="images/like.png" alt="like-icon">
+                                    <h1>Like</h1>
+                                </div>
+                                <div class="flex items-center">
+                                    <img class=" cursor-pointer w-8" src="images/comment.png" alt="comment-icon">
+                                    <h1>Comment</h1>
+                                </div>
+                                <div class="flex items-center">
+                                    <img class=" cursor-pointer w-8" src="images/share.png" alt="share-icon">
+                                    <h1>Share</h1>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- New Post -->
+                    <div class="post flex flex-col items-start bg-white shadow-md mt-3 rounded-lg gap-2">
+                        <!-- post Nav -->
+                        <div class="postNav w-full p-4 flex flex-col gap-4">
+                            <div class="flex justify-between ">
+                                <div class="flex items-center gap-3">
+                                    <img class=" cursor-pointer w-10 rounded-full" src="images/Daniel Hashmi.jpg"
+                                        alt="profile-icon">
+                                    <div>
+                                        <h1 class="font-semibold text-sm">Daniel Hashmi</h1>
+                                        <p class="flex items-center text-xs text-gray-500"><span>Suggested for
+                                                you</span> • <span>26 February at
+                                                06:57</span> <img class=" cursor-pointer w-5" src="images/globe.png"
+                                                alt="globe-icon">
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="flex items-center gap-2">
+                                    <img class=" cursor-pointer w-6" src="images/ellypsis.svg" alt="threedots-icon">
+                                    <img class=" cursor-pointer w-6" src="images/close.png" alt="close-icon">
+                                </div>
+                            </div>
+                            <p><b>Latest To-Do List Application</b>
+                                This is a Latest to-do list application made using TypeScript. It allows you to add
+                                tasks, mark them as completed, and filter tasks based on their status.
+
+                                Features
+                                Add new tasks,
+                                Mark tasks as completed,
+                                Filter tasks to view all, active, or completed tasks
+                                Saves the status of the tasks in local storage
+                                <br>
+                                <br>
+                                Usage
+                                <b> <a class="text-blue-500" href="https://to-do-list-by-dh.freewebhostmost.com/">Click
+                                        here
+                                        to use the App</a></b>
+                            </p>
+                        </div>
+                        <!-- post image -->
+                        <a href="https://to-do-list-by-dh.freewebhostmost.com/"
+                            class="bg-black w-full flex items-center justify-center">
+                            <img class=" cursor-pointer w-9/12" src="images/todo.jfif" alt="image">
+                        </a>
+                        <!-- post controls -->
+                        <div class="w-full">
+
+                            <div class="flex justify-between items-center text-sm w-full p-2">
+                                <div class="flex items-center">
+                                    <img class=" cursor-pointer w-18 h-6" src="images/reactions.png"
+                                        alt="reactions-icons">
+                                    <h1> 17K</h1>
+                                </div>
+                                <div class="flex  gap-2">
+                                    <h1>500K+ comments</h1>
+                                    <h1>17K+ shares </h1>
+                                </div>
+                            </div>
+
+                            <div
+                                class="flex items-center justify-around border-t-[2px] p-2 text-sm font-semibold border-[#e6e7e9]">
+                                <div class="flex items-center">
+                                    <img class=" cursor-pointer w-8" src="images/like.png" alt="like-icon">
+                                    <h1>Like</h1>
+                                </div>
+                                <div class="flex items-center">
+                                    <img class=" cursor-pointer w-8" src="images/comment.png" alt="comment-icon">
+                                    <h1>Comment</h1>
+                                </div>
+                                <div class="flex items-center">
+                                    <img class=" cursor-pointer w-8" src="images/share.png" alt="share-icon">
+                                    <h1>Share</h1>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- New Post -->
+                    <div class="post flex flex-col items-start bg-white shadow-md mt-3 rounded-lg gap-2">
+                        <!-- post Nav -->
+                        <div class="postNav w-full p-4 flex flex-col gap-4">
+                            <div class="flex justify-between ">
+                                <div class="flex items-center gap-3">
+                                    <img class=" cursor-pointer w-10 rounded-full" src="images/Daniel Hashmi.jpg"
+                                        alt="profile-icon">
+                                    <div>
+                                        <h1 class="font-semibold text-sm">Daniel Hashmi</h1>
+                                        <p class="flex items-center text-xs text-gray-500"><span>Suggested for
+                                                you</span> • <span>26 February at
+                                                06:57</span> <img class=" cursor-pointer w-5" src="images/globe.png"
+                                                alt="globe-icon">
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="flex items-center gap-2">
+                                    <img class=" cursor-pointer w-6" src="images/ellypsis.svg" alt="threedots-icon">
+                                    <img class=" cursor-pointer w-6" src="images/close.png" alt="close-icon">
+                                </div>
+                            </div>
+                            <p>This is just a demo video from my portfolio website that showcases my projects. <br>
+                                You can find them all in one place by clicking on the bold text that redirects you to my
+                                <b><a class="text-blue-700"
+                                        href="https://github.com/DanielHashmi?tab=repositories">GitHub
+                                        Repository's</a></b>
+                            </p>
+                        </div>
+                        <!-- post image -->
+                        <div class="bg-black w-full flex items-center justify-center">
+                            <!-- just change items -->
+
+                            <!-- <img class=" cursor-pointer w-9/12" src="images/girl&boy.jpg" alt="image"> -->
+                            <video class=" cursor-pointer" autoplay muted loop src="videos/demo.mp4"></video>
+                        </div>
+                        <!-- post controls -->
+                        <div class="w-full">
+
+                            <div class="flex justify-between items-center text-sm w-full p-2">
+                                <div class="flex items-center">
+                                    <img class=" cursor-pointer w-18 h-6" src="images/reactions.png"
+                                        alt="reactions-icons">
+                                    <h1> 17K</h1>
+                                </div>
+                                <div class="flex  gap-2">
+                                    <h1>500K+ comments</h1>
+                                    <h1>17K+ shares </h1>
+                                </div>
+                            </div>
+
+                            <div
+                                class="flex items-center justify-around border-t-[2px] p-2 text-sm font-semibold border-[#e6e7e9]">
+                                <div class="flex items-center">
+                                    <img class=" cursor-pointer w-8" src="images/like.png" alt="like-icon">
+                                    <h1>Like</h1>
+                                </div>
+                                <div class="flex items-center">
+                                    <img class=" cursor-pointer w-8" src="images/comment.png" alt="comment-icon">
+                                    <h1>Comment</h1>
+                                </div>
+                                <div class="flex items-center">
+                                    <img class=" cursor-pointer w-8" src="images/share.png" alt="share-icon">
+                                    <h1>Share</h1>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Reels Section -->
+                    <div class="ReelsSec  bg-white shadow-md mt-3 rounded-lg gap-2 relative">
+                        <div class="reelNav flex p-4  justify-between ">
+                            <div class="flex items-center gap-1">
+                                <img class=" cursor-pointer w-10" src="images/reels.png" alt="reels-icon">
+                                <h1 class="font-semibold text-lg ">Reels and short videos</h1>
+                            </div>
+                            <div class="flex items-center gap-6">
+                                <a class="text-blue-500 font-semibold " href="#">Create</a>
+                                <img class=" cursor-pointer w-6" src="images/ellypsis.svg" alt="threedots-icon">
+                            </div>
+                        </div>
+                        <!-- videos -->
+                        <img class="rounded-full z-10 absolute right-1 bottom-[19rem]" src="images/forword.png" alt="">
+                        <div class=" px-4 flex overflow-x-scroll gap-2 max-w-full relative">
+                            <a class="relative bg-black flex rounded-2xl">
+                                <div class="absolute flex items-center text-white text-sm bottom-2 left-4 gap-1"><img
+                                        class="w-1.5" src="images/playI.png" alt="play">
+                                    <h1>1M</h1>
+                                </div><video class="rounded-2xl max-w-[19rem]" autoplay muted loop
+                                    src="videos/reel6.mp4"></video>
+                                </>
+                                <a class="relative bg-black flex rounded-2xl">
+                                    <div class="absolute flex items-center text-white text-sm bottom-2 left-4 gap-1">
+                                        <img class="w-1.5" src="images/playI.png" alt="play">
+                                        <h1>1M</h1>
+                                    </div><video class="rounded-2xl max-w-[19rem]" autoplay muted loop
+                                        src="videos/reel7.mp4"></video>
+                                    </>
+                                    <a class="relative bg-black flex rounded-2xl">
+                                        <div
+                                            class="absolute flex items-center text-white text-sm bottom-2 left-4 gap-1">
+                                            <img class="w-1.5" src="images/playI.png" alt="play">
+                                            <h1>1M</h1>
+                                        </div><video class="rounded-2xl max-w-[19rem]" autoplay muted loop
+                                            src="videos/reel8.mp4"></video>
+                                        </>
+                                        <a class="relative bg-black flex rounded-2xl">
+                                            <div
+                                                class="absolute flex items-center text-white text-sm bottom-2 left-4 gap-1">
+                                                <img class="w-1.5" src="images/playI.png" alt="play">
+                                                <h1>1M</h1>
+                                            </div><video class="rounded-2xl max-w-[19rem]" autoplay muted loop
+                                                src="videos/reel9.mp4"></video>
+                                            </>
+                                            <a class="relative bg-black flex rounded-2xl">
+                                                <div
+                                                    class="absolute flex items-center text-white text-sm bottom-2 left-4 gap-1">
+                                                    <img class="w-1.5" src="images/playI.png" alt="play">
+                                                    <h1>1M</h1>
+                                                </div><video class="rounded-2xl max-w-[19rem]" autoplay muted loop
+                                                    src="videos/reel11.mp4"></video>
+                                                </>
+                        </div>
+                        <div class="text-center p-3">
+                            <a class="text-blue-500 font-semibold" href="#">See more</a>
+                        </div>
+                    </div>
+
+                    <!-- New Post -->
+                    <div class="post flex flex-col items-start bg-white shadow-md mt-3 rounded-lg gap-2">
+                        <!-- post Nav -->
+                        <div class="postNav w-full p-4 flex flex-col gap-4">
+                            <div class="flex justify-between ">
+                                <div class="flex items-center gap-3">
+                                    <img class=" cursor-pointer w-10 rounded-full" src="images/frog.jpg"
+                                        alt="profile-icon">
+                                    <div>
+                                        <h1 class="font-semibold text-sm">Brock James</h1>
+                                        <p class="flex items-center text-xs text-gray-500"><span>Suggested for
+                                                you</span> • <span>26 February at
+                                                06:57</span> <img class=" cursor-pointer w-5" src="images/globe.png"
+                                                alt="globe-icon">
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="flex items-center gap-2">
+                                    <img class=" cursor-pointer w-6" src="images/ellypsis.svg" alt="threedots-icon">
+                                    <img class=" cursor-pointer w-6" src="images/close.png" alt="close-icon">
+                                </div>
+                            </div>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto sed quos unde qui
+                                ullam
+                                nesciunt magnam harum quidem doloremque. Rerum, cumque quam aut unde at quae. Corporis
+                                necessitatibus distinctio fuga velit ea suscipit deleniti atque cum ducimus! Natus at
+                                quam
+                                minus? Labore, sit?</p>
+                        </div>
+                        <!-- post image -->
+                        <div class="bg-black w-full flex items-center justify-center">
+                            <!-- just change items -->
+
+                            <img class=" cursor-pointer w-9/12" src="images/post.jpg" alt="image">
+                            <!-- <video class=" cursor-pointer" autoplay muted loop src="videos/demo.mp4"></video> -->
+                        </div>
+                        <!-- post controls -->
+                        <div class="w-full">
+
+                            <div class="flex justify-between items-center text-sm w-full p-2">
+                                <div class="flex items-center">
+                                    <img class=" cursor-pointer w-18 h-6" src="images/reactions.png"
+                                        alt="reactions-icons">
+                                    <h1> 17K</h1>
+                                </div>
+                                <div class="flex  gap-2">
+                                    <h1>500K+ comments</h1>
+                                    <h1>17K+ shares </h1>
+                                </div>
+                            </div>
+
+                            <div
+                                class="flex items-center justify-around border-t-[2px] p-2 text-sm font-semibold border-[#e6e7e9]">
+                                <div class="flex items-center">
+                                    <img class=" cursor-pointer w-8" src="images/like.png" alt="like-icon">
+                                    <h1>Like</h1>
+                                </div>
+                                <div class="flex items-center">
+                                    <img class=" cursor-pointer w-8" src="images/comment.png" alt="comment-icon">
+                                    <h1>Comment</h1>
+                                </div>
+                                <div class="flex items-center">
+                                    <img class=" cursor-pointer w-8" src="images/share.png" alt="share-icon">
+                                    <h1>Share</h1>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- New Post -->
+                    <div class="post flex flex-col items-start bg-white shadow-md mt-3 rounded-lg gap-2">
+                        <!-- post Nav -->
+                        <div class="postNav w-full p-4 flex flex-col gap-4">
+                            <div class="flex justify-between ">
+                                <div class="flex items-center gap-3">
+                                    <img class=" cursor-pointer w-10 rounded-full" src="images/boy.png"
+                                        alt="profile-icon">
+                                    <div>
+                                        <h1 class="font-semibold text-sm">Kim Shang</h1>
+                                        <p class="flex items-center text-xs text-gray-500"><span>Suggested for
+                                                you</span> • <span>26 February at
+                                                06:57</span> <img class=" cursor-pointer w-5" src="images/globe.png"
+                                                alt="globe-icon">
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="flex items-center gap-2">
+                                    <img class=" cursor-pointer w-6" src="images/ellypsis.svg" alt="threedots-icon">
+                                    <img class=" cursor-pointer w-6" src="images/close.png" alt="close-icon">
+                                </div>
+                            </div>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto sed quos unde qui
+                                ullam
+                                nesciunt magnam harum quidem doloremque. Rerum, cumque quam aut unde at quae. Corporis
+                                necessitatibus distinctio fuga velit ea suscipit deleniti atque cum ducimus! Natus at
+                                quam
+                                minus? Labore, sit?</p>
+                        </div>
+                        <!-- post image -->
+                        <a href="#" class="bg-black w-full flex items-center justify-center">
+                            <img class=" cursor-pointer w-9/12" src="images/girl&boy.jpg" alt="image">
+                        </a>
+                        <!-- post controls -->
+                        <div class="w-full">
+
+                            <div class="flex justify-between items-center text-sm w-full p-2">
+                                <div class="flex items-center">
+                                    <img class=" cursor-pointer w-18 h-6" src="images/reactions.png"
+                                        alt="reactions-icons">
+                                    <h1> 17K</h1>
+                                </div>
+                                <div class="flex  gap-2">
+                                    <h1>500K+ comments</h1>
+                                    <h1>17K+ shares </h1>
+                                </div>
+                            </div>
+
+                            <div
+                                class="flex items-center justify-around border-t-[2px] p-2 text-sm font-semibold border-[#e6e7e9]">
+                                <div class="flex items-center">
+                                    <img class=" cursor-pointer w-8" src="images/like.png" alt="like-icon">
+                                    <h1>Like</h1>
+                                </div>
+                                <div class="flex items-center">
+                                    <img class=" cursor-pointer w-8" src="images/comment.png" alt="comment-icon">
+                                    <h1>Comment</h1>
+                                </div>
+                                <div class="flex items-center">
+                                    <img class=" cursor-pointer w-8" src="images/share.png" alt="share-icon">
+                                    <h1>Share</h1>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Reels Section -->
+                    <div class="ReelsSec  bg-white shadow-md mt-3 rounded-lg gap-2 relative">
+                        <div class="reelNav flex p-4  justify-between ">
+                            <div class="flex items-center gap-1">
+                                <img class=" cursor-pointer w-10" src="images/reels.png" alt="reels-icon">
+                                <h1 class="font-semibold text-lg ">Reels and short videos</h1>
+                            </div>
+                            <div class="flex items-center gap-6">
+                                <a class="text-blue-500 font-semibold " href="#">Create</a>
+                                <img class=" cursor-pointer w-6" src="images/ellypsis.svg" alt="threedots-icon">
+                            </div>
+                        </div>
+                        <!-- videos -->
+                        <img class="rounded-full z-10 absolute right-1 bottom-[19rem]" src="images/forword.png" alt="">
+                        <div class=" px-4 flex overflow-x-scroll gap-2 max-w-full relative">
+                            <a class="relative bg-black flex rounded-2xl">
+                                <div class="absolute flex items-center text-white text-sm bottom-2 left-4 gap-1"><img
+                                        class="w-1.5" src="images/playI.png" alt="play">
+                                    <h1>1M</h1>
+                                </div><video class="rounded-2xl max-w-[19rem]" autoplay muted loop
+                                    src="videos/reel1.mp4"></video>
+                                </>
+                                <a class="relative bg-black flex rounded-2xl">
+                                    <div class="absolute flex items-center text-white text-sm bottom-2 left-4 gap-1">
+                                        <img class="w-1.5" src="images/playI.png" alt="play">
+                                        <h1>1M</h1>
+                                    </div><video class="rounded-2xl max-w-[19rem]" autoplay muted loop
+                                        src="videos/reel2.mp4"></video>
+                                    </>
+                                    <a class="relative bg-black flex rounded-2xl">
+                                        <div
+                                            class="absolute flex items-center text-white text-sm bottom-2 left-4 gap-1">
+                                            <img class="w-1.5" src="images/playI.png" alt="play">
+                                            <h1>1M</h1>
+                                        </div><video class="rounded-2xl max-w-[19rem]" autoplay muted loop
+                                            src="videos/reel3.mp4"></video>
+                                        </>
+                                        <a class="relative bg-black flex rounded-2xl">
+                                            <div
+                                                class="absolute flex items-center text-white text-sm bottom-2 left-4 gap-1">
+                                                <img class="w-1.5" src="images/playI.png" alt="play">
+                                                <h1>1M</h1>
+                                            </div><video class="rounded-2xl max-w-[19rem]" autoplay muted loop
+                                                src="videos/reel4.mp4"></video>
+                                            </>
+                                            <a class="relative bg-black flex rounded-2xl">
+                                                <div
+                                                    class="absolute flex items-center text-white text-sm bottom-2 left-4 gap-1">
+                                                    <img class="w-1.5" src="images/playI.png" alt="play">
+                                                    <h1>1M</h1>
+                                                </div><video class="rounded-2xl max-w-[19rem]" autoplay muted loop
+                                                    src="videos/reel5.mp4"></video>
+                                                </>
+                        </div>
+                        <div class="text-center p-3">
+                            <a class="text-blue-500 font-semibold" href="#">See more</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- .mainThird -->
+            <div class="hidden md:block w-1/4">
+                <div class="mainThird w-full lg:px-10 py-5 sticky top-[4rem]">
+                    <div>
+                        <h1 class="text-[#65676b]  font-semibold mb-6">Sponsored</h1>
+                        <div class="flex items-center gap-4">
+                            <img class=" cursor-pointer w-[8vw] xl:w-32 rounded-lg" src="images/purpleImg.jpg"
+                                alt="card-img">
+                            <div>
+                                <h2 class="font-bold ">Join the Digital Library |
+                                    British Council</h2>
+                                <p class="text-[#65676b]">britishcouncil.pk</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex flex-col gap-3 mt-5 border-t-[2px] border-[#ced0d4] py-2">
+                        <h1 class="text-[#65676b] font-semibold ">Group conversations</h1>
+                        <div class="flex items-center gap-2">
+                            <img class=" cursor-pointer w-10" src="images/grayPlus.png" alt="plus-icon">
+                            <h1 class="text-[#000000]  font-semibold ">Create New Group</h1>
+                        </div>
+                    </div>
+                    <!-- edit icon -->
+                    <img class=" cursor-pointer w-15 rounded-full absolute top-[85vh] left-[20vw] shadow-md"
+                        src="images/edit.png" alt="edit-icon">
+                </div>
+
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
